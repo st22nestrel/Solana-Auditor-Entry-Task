@@ -7,7 +7,7 @@ Program that counts how many viruses are there in the world, as specified by the
 Program was compiled with version `rustc 1.68.0 (2c8cc3432 2023-03-06)` of rust compiler. Compiling with newer rust versions should be ok, but using older versions can result in compilation failure.
 
 ## How to run
-# TODO how to install clap?
+
 To build, run:
 ```cargo build --release```
 
@@ -20,4 +20,4 @@ As first line of the input, program expects number of questions to be answered (
 
 You can run program with `cargo run` and provide all necessary inputs, or provide file to be read from as an argument `cargo run --release -- --file <PATH-TO-FILE>`.
 
-Program expects that you input valid integer numbers, otherwise it will fail. It will
+Program expects that you input valid integer numbers, otherwise it will fail. It will display error message and will not prompt you to type the number again.
